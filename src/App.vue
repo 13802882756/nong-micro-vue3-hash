@@ -5,7 +5,9 @@ import TheWelcome from "./components/TheWelcome.vue";
 
 <template>
   <div id="micro-app">
-    vue3子应用
+    <div class="hash-div"></div>
+
+    vue3-hash子应用
     <router-view></router-view>
   </div>
 </template>
@@ -15,6 +17,13 @@ header {
   line-height: 1.5;
 }
 
+.hash-div {
+  width: auto;
+  height: 300px;
+  background-image: url("./assets/ct5.jpg");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
 .logo {
   display: block;
   margin: 0 auto 2rem;
