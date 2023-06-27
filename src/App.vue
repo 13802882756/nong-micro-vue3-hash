@@ -20,7 +20,7 @@ header {
 .hash-div {
   width: auto;
   height: 300px;
-  background-image: url("./assets/ct5.jpg");
+  background-image: url("@/assets/ct5.jpg");
   background-size: auto 100%;
   background-repeat: no-repeat;
 }
